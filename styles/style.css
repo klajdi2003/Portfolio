@@ -34,7 +34,27 @@ body {
   font-weight: 400;
   max-width: 800px;
   color: rgba(0, 0, 0, 0.789);
+  margin-bottom: 10px;
   cursor: pointer;
+}
+
+.footer-button {
+  background-color: #148556;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.footer-button:hover {  
+  color: #10b77a;
+  background-color: black;
+}
+
+.footer-button:active {
+  opacity: 0.6;
 }
 
 
@@ -136,6 +156,13 @@ main {
 
 .footer a:hover {
   color: #16a085;
+}
+
+.footer-bottom {
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+
 }
 
 
